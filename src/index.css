@@ -1,0 +1,59 @@
+@import '~react-image-gallery/styles/css/image-gallery.css';
+
+body {
+  margin: 0;
+  width: 100vw;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(254, 254, 254);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  src: url("./fonts/adana-script.woff2") format("woff2");
+  font-family: "Adana";
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("./fonts/adana-script.woff") format("woff");
+  font-family: "Adana";
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("./fonts/julia-script.woff2") format("woff2");
+  font-family: "Julia";
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("./fonts/julia-script.woff") format("woff");
+  font-family: "Julia";
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("./fonts/vivaldi-script.woff2") format("woff2");
+  font-family: "Vivaldi";
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("./fonts/vivaldi-script.woff") format("woff");
+  font-family: "Vivaldi";
+  font-weight: normal;
+  font-display: swap;
+}

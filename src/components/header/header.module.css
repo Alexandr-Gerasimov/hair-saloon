@@ -1,0 +1,81 @@
+.main {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+} 
+
+.logo  {
+  display: flex;
+  align-items: center;
+}
+
+.hair {
+    width: 700px;
+    height: 3000px;
+    position: relative;
+    top: -300px;
+    right: 100px;
+}
+ 
+.name {
+  font-family: "Vivaldi";
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 32px;
+  color: #FFF;
+  
+}
+
+.mainMenu {
+    display: flex;
+}
+
+.menu {
+    font-family: "Vivaldi";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 32px;
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    z-index: 11;
+}
+
+.menu:hover {
+  opacity: .3;
+  transition: opacity .3s linear 0s;
+}
+
+.image {
+ width: 100px;
+ height: 100px;
+ margin-left: 20px;
+ animation: rotate 10s linear infinite;
+}
+
+.description {
+  font-family: "Vivaldi";
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 32px;
+  color: #8585AD
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
