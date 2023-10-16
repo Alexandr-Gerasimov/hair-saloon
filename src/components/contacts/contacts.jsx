@@ -7,8 +7,8 @@ import whatsapp from "../../images/whatsapp.png"
 export default function Contacts() {
   return (
     <>
-      <div className={styles.header}>
-        <p id="contacts" className={styles.text}>Контакты</p>
+      <div className={styles.header} id="contacts">
+        <p className={styles.text}>Контакты</p>
         <div className={styles.contactLinks}>
             <p className={styles.phone}>Телефон: +7(962)162-26-03</p>
             <div>
@@ -25,7 +25,7 @@ export default function Contacts() {
           <li className={styles.item}>
             <a href="https://wa.me/79621622603" target="_blank" rel="noopener noreferrer" className={styles.link}>
               <img
-                src={vk}
+                src={whatsapp}
                 className={styles.icon}
                 alt="vk"
               /></a
@@ -34,7 +34,7 @@ export default function Contacts() {
           <li className={styles.item}>
             <a href="https://vk.com/lilekk1907" target="_blank" rel="noopener noreferrer" className={styles.link}>
               <img
-                src={whatsapp}
+                src={vk}
                 className={styles.icon}
                 alt="vk"
               /></a

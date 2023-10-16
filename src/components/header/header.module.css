@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 10;
+    scroll-behavior: smooth;
 } 
 
 .logo  {
@@ -37,6 +38,8 @@
 }
 
 .menu {
+  list-style: none;
+  cursor: pointer;
     font-family: "Vivaldi";
     font-weight: 400;
     font-size: 40px;

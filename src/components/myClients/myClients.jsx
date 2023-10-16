@@ -6,7 +6,7 @@ import { images } from "./gallery-image";
 export default function MyClients() {
   return (
     <>
-      <div className={styles.about}>
+      <div className={styles.about} id="my_services">
         <p id="myClient" className={styles.text}>Мои работы</p>
         <ReactImageGallery items={images}/>
       </div>
