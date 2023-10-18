@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./newHeader.module.css";
-import mainFoto from "../../images/main-foto.jpg";
+import mainFoto from "../../images/1234.png";
 
 export default function NewHeader() {
   const smoothLinks = document.querySelectorAll('a[href^="#"]');

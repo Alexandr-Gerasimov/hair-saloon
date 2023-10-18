@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./aboutMe.module.css";
-import me from "../../images/me.png"
 
 export default function AboutMe() {
   return (
