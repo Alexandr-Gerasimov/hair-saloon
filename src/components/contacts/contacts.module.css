@@ -6,8 +6,8 @@
 }
 
 .text {
-    text-align: center;
-    font-family: "Vivaldi";
+  text-align: center;
+  font-family: "Vivaldi";
   font-weight: 400;
   font-size: 50px;
   line-height: 55px;
@@ -15,8 +15,8 @@
 }
 
 .phone {
-    margin-top: 0;
-    font-family: "Vivaldi";
+  margin-top: 0;
+  font-family: "Vivaldi";
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
@@ -26,6 +26,8 @@
 .contactLinks {
     display: flex;
     justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .links {

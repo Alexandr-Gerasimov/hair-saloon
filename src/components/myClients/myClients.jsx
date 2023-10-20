@@ -1,13 +1,11 @@
 import React from "react";
 import styles from "./myClients.module.css";
 import ReactImageGallery from "react-image-gallery";
-import { images } from "./gallery-image";
 
-export default function MyClients() {
+export default function MyClients({images}) {
   return (
     <>
-      <div className={styles.about} id="my_services">
-        <p id="myClient" className={styles.text}>Мои работы</p>
+      <div className={styles.about}>
         <ReactImageGallery items={images}/>
       </div>
     </>

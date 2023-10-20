@@ -3,6 +3,7 @@
 }
 
 .header {
+  margin-top: -40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,7 +31,7 @@
   font-size: 100px;
   line-height: 32px;
   color: #FFF;
-  
+  margin: 0;
 }
 
 .mainMenu {
