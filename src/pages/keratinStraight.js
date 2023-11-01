@@ -13,7 +13,7 @@ export function KeratinStraight() {
       <>
         <p className={styles.text} onClick={goBack}>На главную</p>
         <p className={styles.headText}>Кератиновое выпрямление</p>
-        <MyClients images={images}/>
+        <p className={styles.headText}>Раздел в разработке</p>
       </>
     );
   }

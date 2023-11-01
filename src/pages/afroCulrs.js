@@ -13,7 +13,7 @@ export function AfroCulrs() {
       <>
         <p className={styles.text} onClick={goBack}>На главную</p>
         <p className={styles.headText}>Афро кудри</p>
-        <MyClients images={images}/>
+        <p className={styles.headText}>Раздел в разработке</p>
       </>
     );
   }

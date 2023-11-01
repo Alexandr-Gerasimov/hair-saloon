@@ -42,7 +42,7 @@ export default function Menu() {
           </li>
           <li onClick={hairColoring} className={styles.button}>
           <img src={color} className={styles.image} alt="тут была картинка"/>
-            <p className={styles.text}>Окрашивание волос</p>
+            <p className={styles.text}>Ботокс волос</p>
           </li>
         </ul>
       </div>

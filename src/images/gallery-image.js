@@ -5,6 +5,7 @@ import image4 from "./image4.jpg"
 import image5 from "./image5.jpg"
 import image6 from "./image6.jpg"
 import image7 from "./image7.jpg"
+import image9 from "./image9.jpg"
 
 export const images = [
   {
@@ -30,5 +31,9 @@ export const images = [
   {
     original: image6,
     thumbnail: image6,
+  },
+  {
+    original: image9,
+    thumbnail: image9,
   }
 ];

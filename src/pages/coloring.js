@@ -12,8 +12,8 @@ export function HairColoring() {
     return (
       <>
         <p className={styles.text} onClick={goBack}>На главную</p>
-        <p className={styles.headText}>Окрашивание волос</p>
-        <MyClients images={images}/>
+        <p className={styles.headText}>Ботокс волос</p>
+        <p className={styles.headText}>Раздел в разработке</p>
       </>
     );
   }
