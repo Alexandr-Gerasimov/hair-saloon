@@ -31,3 +31,48 @@
   line-height: 35px;
   color: #fff
 }
+
+@media screen and (max-width: 1279px) {
+  .text {
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .headText {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .description {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .text {
+    font-size: 30px;
+    line-height: 55px;
+  }
+  .headText {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .description {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .headText {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .description {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}

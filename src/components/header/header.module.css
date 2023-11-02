@@ -82,4 +82,43 @@
       transform: rotate(360deg);
     }
   }
+
+  @media screen and (max-width: 1279px) {
+    .menu {
+      font-size: 40px;
+    }
+    .name {
+      font-size: 100pxpx;
+    }
+    .image {
+      width: 100px;
+      height: 100px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .menu {
+      font-size: 35px;
+    }
+    .name {
+      font-size: 90px;
+    }
+    .image {
+      width: 90px;
+      height: 90px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu {
+      font-size: 30px;
+    }
+    .name {
+      font-size: 80px;
+    }
+    .image {
+      width: 80px;
+      height: 80px;
+    }
+}
   

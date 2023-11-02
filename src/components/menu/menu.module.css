@@ -38,3 +38,48 @@
   opacity: .7;
   transition: opacity .3s linear 0s;
 }
+
+@media screen and (max-width: 1279px) {
+  .text {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .block {
+    gap: 50px;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 350px 350px;
+  }
+  .image {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .text {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .block {
+    gap: 40px;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 300px 300px;
+  }
+  .image {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .block {
+    gap: 30px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 250px 250px;
+  }
+  .image {
+    width: 200px;
+  }
+}
