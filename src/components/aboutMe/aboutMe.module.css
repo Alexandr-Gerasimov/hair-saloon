@@ -35,3 +35,10 @@
     line-height: 35px;
   }
 }
+
+@media screen and (max-width: 479px) {
+  .text {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}

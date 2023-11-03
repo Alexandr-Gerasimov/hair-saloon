@@ -38,3 +38,14 @@
     line-height: 45px;
   }
 }
+
+@media screen and (max-width: 479px) {
+  .text {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .gallery {
+    width: 350px;
+  }
+}

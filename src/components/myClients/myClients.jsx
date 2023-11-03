@@ -6,7 +6,7 @@ export default function MyClients({images}) {
   return (
     <>
       <div className={styles.about}>
-        <ReactImageGallery items={images}/>
+        <ReactImageGallery items={images} additionalClass={styles.gallery}/>
       </div>
     </>
   );

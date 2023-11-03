@@ -109,3 +109,18 @@
     height: 30px;
   }
 }
+
+@media screen and (max-width: 479px) {
+  .text {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .phone {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+}

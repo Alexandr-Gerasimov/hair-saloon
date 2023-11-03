@@ -83,3 +83,18 @@
     width: 200px;
   }
 }
+
+@media screen and (max-width: 479px) {
+  .text {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .block {
+    gap: 20px;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 200px 200px;
+  }
+  .image {
+    width: 150px;
+  }
+}

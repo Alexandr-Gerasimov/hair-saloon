@@ -76,3 +76,18 @@
     line-height: 30px;
   }
 }
+
+@media screen and (max-width: 479px) {
+  .text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .headText {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .description {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
