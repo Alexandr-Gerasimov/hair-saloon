@@ -10,7 +10,10 @@ export default function Contacts() {
       <div className={styles.header} id="contacts">
         <p className={styles.text}>Контакты</p>
         <div className={styles.contactLinks}>
-            <p className={styles.phone}>Телефон: +7(962)162-26-03</p>
+          <div className={styles.phoneBlock}>
+          <p className={styles.phone}>Телефон:</p>
+            <a href="tel:+79621622603" className={styles.phoneLink}>+7(962)162-26-0</a>
+          </div>
             <div>
             <ul className={styles.links}>
           <li className={styles.item}>

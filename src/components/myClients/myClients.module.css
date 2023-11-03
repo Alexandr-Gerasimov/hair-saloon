@@ -37,6 +37,9 @@
     font-size: 40px;
     line-height: 45px;
   }
+  .gallery {
+    width: 450px;
+  }
 }
 
 @media screen and (max-width: 479px) {

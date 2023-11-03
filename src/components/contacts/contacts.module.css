@@ -22,12 +22,24 @@
   line-height: 40px;
   color: #fff
 }
+.phoneBlock {
+  display: flex;
+  flex-direction: row;
+}
 
 .contactLinks {
     display: flex;
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
+}
+.phoneLink {
+  font-family: "Vivaldi";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .links {
@@ -78,6 +90,11 @@
       width: 40px;
       height: 40px;
     }
+    .phoneLink {
+      margin-left: 5px;
+      font-size: 40px;
+      line-height: 40px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -93,6 +110,10 @@
     width: 35px;
     height: 35px;
   }
+  .phoneLink {
+    font-size: 35px;
+    line-height: 35px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -103,10 +124,18 @@
   .phone {
     font-size: 30px;
     line-height: 30px;
+    margin-bottom: 5px;
   }
   .icon {
     width: 30px;
     height: 30px;
+  }
+  .phoneLink {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .phoneBlock {
+    flex-direction: column;
   }
 }
 
@@ -118,9 +147,21 @@
   .phone {
     font-size: 25px;
     line-height: 25px;
+    margin-bottom: 5px;
   }
   .icon {
     width: 25px;
     height: 25px;
+  }
+  .contactLinks {
+    padding-left: 5px;
+    padding-right: 5px; 
+  }
+  .phoneLink {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .phoneBlock {
+    flex-direction: column;
   }
 }
