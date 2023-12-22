@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./menu.module.css";
-import hot from "../../images/image8.jpg"
-import afro from "../../images/afro.jpeg"
-import keratin from "../../images/keratin.jpeg"
-import color from "../../images/color.jpeg"
+import hot from "../../images/image8.jpg";
+import afro from "../../images/afro.jpeg";
+import keratin from "../../images/keratin.jpeg";
+import color from "../../images/color.jpeg";
 import { useNavigate } from "react-router-dom";
 
 export default function Menu() {
-
   const navigate = useNavigate();
 
   const hotBuild = () => {
@@ -29,19 +28,23 @@ export default function Menu() {
         <p className={styles.text}>Мои услуги</p>
         <ul className={styles.block}>
           <li onClick={hotBuild} className={styles.button}>
-            <img src={hot} className={styles.image} alt="тут была картинка"/>
+            <img src={hot} className={styles.image} alt="тут была картинка" />
             <p className={styles.text}>Горячее наращивание</p>
           </li>
-          <li  onClick={afroCulrs} className={styles.button}>
-          <img src={afro} className={styles.image} alt="тут была картинка"/>
+          <li onClick={afroCulrs} className={styles.button}>
+            <img src={afro} className={styles.image} alt="тут была картинка" />
             <p className={styles.text}>Афро кудри</p>
           </li>
           <li onClick={keratinStraight} className={styles.button}>
-          <img src={keratin} className={styles.image} alt="тут была картинка"/>
+            <img
+              src={keratin}
+              className={styles.image}
+              alt="тут была картинка"
+            />
             <p className={styles.text}>Кератиновое выпрямление</p>
           </li>
           <li onClick={hairColoring} className={styles.button}>
-          <img src={color} className={styles.image} alt="тут была картинка"/>
+            <img src={color} className={styles.image} alt="тут была картинка" />
             <p className={styles.text}>Ботокс волос</p>
           </li>
         </ul>

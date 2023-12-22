@@ -1,68 +1,68 @@
 .main {
-    display: flex;
+  display: flex;
 }
 
 .header {
   margin-top: -40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 10;
-    scroll-behavior: smooth;
-} 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  scroll-behavior: smooth;
+}
 
-.logo  {
+.logo {
   display: flex;
   align-items: center;
 }
 
 .hair {
-    width: 700px;
-    height: 3000px;
-    position: relative;
-    top: -300px;
-    right: 100px;
+  width: 700px;
+  height: 3000px;
+  position: relative;
+  top: -300px;
+  right: 100px;
 }
- 
+
 .name {
   font-family: "Vivaldi";
   font-weight: 400;
   font-size: 100px;
   line-height: 32px;
-  color: #FFF;
+  color: #fff;
   margin: 0;
 }
 
 .mainMenu {
-    display: flex;
+  display: flex;
 }
 
 .menu {
   list-style: none;
   cursor: pointer;
-    font-family: "Vivaldi";
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 32px;
-    color: #fff;
-    margin-right: 20px;
-    text-decoration: none;
-    text-align: center;
-    align-self: center;
-    z-index: 11;
+  font-family: "Vivaldi";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 32px;
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+  text-align: center;
+  align-self: center;
+  z-index: 11;
 }
 
 .menu:hover {
-  opacity: .3;
-  transition: opacity .3s linear 0s;
+  opacity: 0.3;
+  transition: opacity 0.3s linear 0s;
 }
 
 .image {
- width: 100px;
- height: 100px;
- margin-left: 20px;
- animation: rotate 10s linear infinite;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  animation: rotate 10s linear infinite;
 }
 
 .description {
@@ -70,56 +70,56 @@
   font-weight: 400;
   font-size: 70px;
   line-height: 32px;
-  color: #8585AD
+  color: #8585ad;
 }
 
 @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-  
-    to {
-      transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
   }
 
-  @media screen and (max-width: 1279px) {
-    .menu {
-      font-size: 40px;
-    }
-    .name {
-      font-size: 100pxpx;
-    }
-    .image {
-      width: 100px;
-      height: 100px;
-    }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .menu {
+    font-size: 40px;
+  }
+  .name {
+    font-size: 100pxpx;
+  }
+  .image {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .menu {
-      font-size: 35px;
-    }
-    .name {
-      font-size: 90px;
-    }
-    .image {
-      width: 90px;
-      height: 90px;
-    }
+  .menu {
+    font-size: 35px;
+  }
+  .name {
+    font-size: 90px;
+  }
+  .image {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .menu {
-      font-size: 30px;
-    }
-    .name {
-      font-size: 80px;
-    }
-    .image {
-      width: 80px;
-      height: 80px;
-    }
+  .menu {
+    font-size: 30px;
+  }
+  .name {
+    font-size: 80px;
+  }
+  .image {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -134,4 +134,3 @@
     height: 70px;
   }
 }
-  

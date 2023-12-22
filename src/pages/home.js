@@ -3,11 +3,11 @@ import AboutMe from "../components/aboutMe/aboutMe";
 import Menu from "../components/menu/menu";
 
 export function Home() {
-    return (
-      <>
-        <Header />
-        <AboutMe />
-        <Menu />
-      </>
-    );
-  }
+  return (
+    <>
+      <Header />
+      <AboutMe />
+      <Menu />
+    </>
+  );
+}

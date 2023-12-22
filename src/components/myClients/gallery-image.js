@@ -1,5 +1,5 @@
-import image1 from "../../images/1.JPG"
-import image2 from "../../images/2.jpg"
+import image1 from "../../images/1.JPG";
+import image2 from "../../images/2.jpg";
 
 export const images = [
   {
@@ -9,5 +9,5 @@ export const images = [
   {
     original: image2,
     thumbnail: image2,
-  }
+  },
 ];
